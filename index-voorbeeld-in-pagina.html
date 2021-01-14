@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+  <link rel="stylesheet" href="hoofdpagina.css">
+
+  <head>
+    <title>Ma WebXR voorbeeld -> in pagina verwerkt</title>
+    <!--<script src="library/aframe.js"></script>
+    <script src="library/ma-webxr.js" defer></script>
+    <script src="app.js" defer></script>-->
+
+    <style>
+      body {
+        background-image: url('afbl/HoofdAchtGrond.jpg');
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+      }
+      h2 {
+        position: fixed;
+        right: 135px;
+        top: 7px;
+      }
+      h1 {
+        position: fixed;
+        right: 100px;
+        top: 100px;
+      }
+      h3 {
+        position: fixed;
+        left: 50px;
+        top: 130px;
+      }
+      a-scene {
+        width:700px;
+        height:400px;
+      }
+     
+      
+    </style>
+  </head>
+  <body>
+    <h1>Contact</h1>
+    <div>
+    
+    <h3>Informatie</h3>
+    <div id="informatie">
+      Lisser Art Museum is een museum op Landgoed Keukenhof, op steenworp afstand van Kasteel Keukenhof in de Zuid-Hollandse plaats Lisse.
+      In het museum hebben alle kunstwerken iets te maken met voedsel en consumptie.
+    </div>
+    <h2><a href="ticketpagina.html">Tickets</a></h2>
+    </div>
+    <a id="WebXR" href="index.html">Link naar WebXR</a>
+    <div id="contact">
+      Telefoon: 0252-508 800
+      E-Mail: info@lamlisse.nl
+    </div>
+    <div style=float:middle;>
+  <!-- Hier eindigt het WebXR component -->
+  <a-scene background="color: white" embedded></a-scene>
+  <!-- Hier eindigt het WebXR component -->
+  </div>
+  </body>
+</html>

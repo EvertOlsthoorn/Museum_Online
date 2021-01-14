@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Theo den Blanken">
+    <title>layout met Bootstrap</title>
+    <link rel="stylesheet" href="icofont/icofont.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" href="#"><img class="px-4"
+                src="https://www.lamlisse.nl/wp-content/uploads/2018/03/LAM-Lisse-logo-white.svg" alt="logo LAM"></a>
+        <div class="container-fluid">
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                    <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">WebXR</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">tickets</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <header class="container-fluid text-center text-white mb-5 p-5"
+        style="background-image: url(https://www.lamlisse.nl/wp-content/uploads/2018/05/20180516-151011-_52A1232-©BibiVeth-1200x2200.jpg); background-position: center;">
+        <h1 class="mt-5 display-1 text-primary">Tickets</h1>
+        <button class="btn btn-primary mb-5">klik hier om tickets te kopen</button>
+        <div class="row justify-content-around text-dark text-uppercase pb-5">
+
+            <section class="col-5 bg-secondary">
+                <a href="#" class="text-decoration-none text-reset">
+                    <p class="fw-bold fs-2 text-white">Tickets</p>
+                    <p class="text-white fs-5">Op het moment zijn we door covid-19 zijn we gesloten tot 20 January 2021 als u een ticket heeft gekocht voor 20 January zullen wij de bestelling cancelen en zou u het geld terug krijgen.</p>
+                    <p class="text-white fs-6">Leeftijd 0 t/m 5: Gratis</p>
+                    <p class="text-white fs-6">Leeftijd 5 t/m 18: 5,-</p>
+                    <p class="text-white fs-6">Volwassenen: 7,50 </p>
+                </a>
+            </section>
+        
+        </div>
+    </header>
+
+
+    <main>
+
+    </main>
+
+    <div id="nieuwsbrief" class="bg-info p-5 mb-5 text-center">
+        <h4 class="display-3">Nieuwsbrief</h4>
+        <p class="lead">Meld je aan en blijf op de hoogte van de laatste ontwikkelingen binnen en buiten het museum.
+        </p>
+        <div class="input-group mb-3">
+            <input class="form-control" type="text" placeholder="E-mailadres">
+            <input class="input-group-text" type="submit" value="Aanmelden">
+        </div>
+    </div>
+    <footer class="container-fluid">
+        <div class="row pb-5 mb-5">
+            <section class="col-3">
+                <h3>Direct naar</h3>
+                <ul class="nav flex-column">
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Home</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Tickets</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">Contact</a></li>
+                    <li class="nav-item"><a class="nav-link text-secondary" href="#">English</a></li>
+                </ul>
+            </section>
+
+
+            <section class="col-3">
+                <h3>Contactgegevens</h3>
+                <div class="pt-3 pb-3 pe-5">
+                    <img src="https://www.lamlisse.nl/wp-content/uploads/2018/06/LAM-Lisser-ART-Museum-rgb.svg"
+                        alt="LAM - Lisse">
+                </div>
+                <p>
+                    Keukenhof 14 2161 AN Lisse <br>
+                    Postbus 224 <br>
+                    2170 AE Sassenheim <br>
+                <div class="icon-holder">
+                    <a href="tel:0252508800" class="icon">
+                        <i class="icofont-phone"></i>
+                        0252 508 800
+                    </a> <br>
+                    <a href="mailto:info@lamlisse.nl" class="icon">
+                        <i class="icofont-envelope"></i>
+                        info@lamlisse.nl
+                    </a>
+                </div>
+                </p>
+            </section>
+            <section class="col-3">
+                <img class="img-fluid"
+                    src="https://www.lamlisse.nl/wp-content/uploads/2021/01/20200102-111344-_52A9504-Bibi-Veth-lr--scaled-e1610018879217.jpg"
+                    alt="laat doodle zien">
+                <h3>Laat me je doodle zien en ik zeg je wie je bent</h3>
+                <p>
+                    Ken je dat? Tijdens een telefoongesprek, les, vergadering of tijdens het dagdromen, krabbel je
+                    onbewust
+                    poppetjes, pijlen,…
+                </p>
+                <div class="text-center">
+                    <a class="btn btn primary" href="#">Lees meer ></a>
+                </div>
+            </section>
+        </div>
+
+    </footer>
+
+
+</body>
+
+</html>
